@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A1C4F1C252E833000F778DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C4F1B252E833000F778DC /* AppDelegate.swift */; };
-		8A1C4F1E252E833000F778DC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C4F1D252E833000F778DC /* GameScene.sks */; };
 		8A1C4F20252E833000F778DC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C4F1F252E833000F778DC /* Actions.sks */; };
 		8A1C4F22252E833000F778DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C4F21252E833000F778DC /* GameScene.swift */; };
 		8A1C4F24252E833000F778DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C4F23252E833000F778DC /* GameViewController.swift */; };
@@ -16,6 +15,8 @@
 		8A1C4F29252E833400F778DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C4F28252E833400F778DC /* Assets.xcassets */; };
 		8A1C4F34252E833400F778DC /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C4F33252E833400F778DC /* SwiftrisTests.swift */; };
 		8A1C4F3F252E833400F778DC /* SwiftrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C4F3E252E833400F778DC /* SwiftrisUITests.swift */; };
+		8A1C4F56252E86D400F778DC /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C4F55252E86D400F778DC /* Sounds */; };
+		8A1C4F5B252E86FF00F778DC /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C4F5A252E86FF00F778DC /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		8A1C4F18252E833000F778DC /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1C4F1B252E833000F778DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A1C4F1D252E833000F778DC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8A1C4F1F252E833000F778DC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		8A1C4F21252E833000F778DC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8A1C4F23252E833000F778DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		8A1C4F3A252E833400F778DC /* SwiftrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1C4F3E252E833400F778DC /* SwiftrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisUITests.swift; sourceTree = "<group>"; };
 		8A1C4F40252E833400F778DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1C4F55252E86D400F778DC /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		8A1C4F5A252E86FF00F778DC /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				8A1C4F1B252E833000F778DC /* AppDelegate.swift */,
-				8A1C4F1D252E833000F778DC /* GameScene.sks */,
 				8A1C4F1F252E833000F778DC /* Actions.sks */,
 				8A1C4F21252E833000F778DC /* GameScene.swift */,
 				8A1C4F23252E833000F778DC /* GameViewController.swift */,
 				8A1C4F25252E833000F778DC /* Main.storyboard */,
 				8A1C4F28252E833400F778DC /* Assets.xcassets */,
 				8A1C4F2A252E833400F778DC /* Info.plist */,
+				8A1C4F5A252E86FF00F778DC /* Sprites.atlas */,
+				8A1C4F55252E86D400F778DC /* Sounds */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -235,9 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A1C4F27252E833000F778DC /* Main.storyboard in Resources */,
-				8A1C4F1E252E833000F778DC /* GameScene.sks in Resources */,
 				8A1C4F29252E833400F778DC /* Assets.xcassets in Resources */,
+				8A1C4F56252E86D400F778DC /* Sounds in Resources */,
 				8A1C4F20252E833000F778DC /* Actions.sks in Resources */,
+				8A1C4F5B252E86FF00F778DC /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
